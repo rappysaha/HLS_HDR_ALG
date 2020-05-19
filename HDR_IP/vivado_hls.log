@@ -1,0 +1,851 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado_HLS/2016.4/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'Rappy' on host 'desktop-kuii8a3' (Windows NT_amd64 version 6.2) on Fri Aug 10 14:00:37 +0900 2018
+INFO: [HLS 200-10] In directory 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP'
+INFO: [HLS 200-10] Opening project 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1'.
+INFO: [HLS 200-10] Opening solution 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7k325tffg900-2'
+INFO: [IMPL 213-8] Exporting RTL as an IP in IP-XACT.
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/ip'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'test_HDR_IP1_ap_fadd_2_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'test_HDR_IP1_ap_fadd_2_full_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'test_HDR_IP1_ap_fadd_2_full_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'test_HDR_IP1_ap_fdiv_6_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'test_HDR_IP1_ap_fdiv_6_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'test_HDR_IP1_ap_fdiv_6_no_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'test_HDR_IP1_ap_fmul_0_max_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'test_HDR_IP1_ap_fmul_0_max_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'test_HDR_IP1_ap_fmul_0_max_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'test_HDR_IP1_ap_sitofp_1_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'test_HDR_IP1_ap_sitofp_1_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'test_HDR_IP1_ap_sitofp_1_no_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'test_HDR_IP1_ap_uitofp_1_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'test_HDR_IP1_ap_uitofp_1_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'test_HDR_IP1_ap_uitofp_1_no_dsp_32'...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 10 14:00:59 2018...
+
+D:\work\vivado_2016.4\HLS_workspace\HLS_HDR_alg\IP_for_genesys2\HDR_IP\test_HDR_IP1\solution1\impl\vhdl>vivado  -notrace -mode batch -source run_vivadosyn.tcl   || exit $? 
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source run_vivadosyn.tcl -notrace
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'test_HDR_IP1_ap_fadd_2_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'test_HDR_IP1_ap_fadd_2_full_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'test_HDR_IP1_ap_fadd_2_full_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'test_HDR_IP1_ap_fdiv_6_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'test_HDR_IP1_ap_fdiv_6_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'test_HDR_IP1_ap_fdiv_6_no_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'test_HDR_IP1_ap_fmul_0_max_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'test_HDR_IP1_ap_fmul_0_max_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'test_HDR_IP1_ap_fmul_0_max_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'test_HDR_IP1_ap_sitofp_1_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'test_HDR_IP1_ap_sitofp_1_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'test_HDR_IP1_ap_sitofp_1_no_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'test_HDR_IP1_ap_uitofp_1_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'test_HDR_IP1_ap_uitofp_1_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'test_HDR_IP1_ap_uitofp_1_no_dsp_32'...
+[Fri Aug 10 14:01:18 2018] Launched synth_1...
+Run output will be captured here: D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.runs/synth_1/runme.log
+[Fri Aug 10 14:01:18 2018] Waiting for synth_1 to finish...
+
+*** Running vivado
+    with args -log test_HDR_IP1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source test_HDR_IP1.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source test_HDR_IP1.tcl -notrace
+Command: synth_design -top test_HDR_IP1 -part xc7k325tffg900-2 -no_iobuf -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-1223] The version limit for your license is '2017.08' and will expire in -344 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19628 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 319.719 ; gain = 109.387
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'test_HDR_IP1' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:58]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:116]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:119]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:322]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:336]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:340]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:344]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:828]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:920]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:922]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_CNTRL_BUS_s_axi' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_CNTRL_BUS_s_axi.vhd:12' bound to instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U' of component 'test_HDR_IP1_CNTRL_BUS_s_axi' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1074]
+INFO: [Synth 8-638] synthesizing module 'test_HDR_IP1_CNTRL_BUS_s_axi' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_CNTRL_BUS_s_axi.vhd:83]
+INFO: [Synth 8-256] done synthesizing module 'test_HDR_IP1_CNTRL_BUS_s_axi' (1#1) [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_CNTRL_BUS_s_axi.vhd:83]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_faddbkb' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_faddbkb.vhd:11' bound to instance 'test_HDR_IP1_faddbkb_U0' of component 'test_HDR_IP1_faddbkb' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1108]
+INFO: [Synth 8-638] synthesizing module 'test_HDR_IP1_faddbkb' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_faddbkb.vhd:29]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_ap_fadd_2_full_dsp_32' declared at 'd:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_fadd_2_full_dsp_32/synth/test_HDR_IP1_ap_fadd_2_full_dsp_32.vhd:59' bound to instance 'test_HDR_IP1_ap_fadd_2_full_dsp_32_u' of component 'test_HDR_IP1_ap_fadd_2_full_dsp_32' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_faddbkb.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'test_HDR_IP1_ap_fadd_2_full_dsp_32' [d:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_fadd_2_full_dsp_32/synth/test_HDR_IP1_ap_fadd_2_full_dsp_32.vhd:72]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_3' declared at 'd:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_fadd_2_full_dsp_32/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_3' [d:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_fadd_2_full_dsp_32/synth/test_HDR_IP1_ap_fadd_2_full_dsp_32.vhd:197]
+INFO: [Synth 8-256] done synthesizing module 'test_HDR_IP1_ap_fadd_2_full_dsp_32' (19#1) [d:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_fadd_2_full_dsp_32/synth/test_HDR_IP1_ap_fadd_2_full_dsp_32.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'test_HDR_IP1_faddbkb' (20#1) [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_faddbkb.vhd:29]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_faddbkb' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_faddbkb.vhd:11' bound to instance 'test_HDR_IP1_faddbkb_U1' of component 'test_HDR_IP1_faddbkb' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1123]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_fmulcud' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fmulcud.vhd:11' bound to instance 'test_HDR_IP1_fmulcud_U2' of component 'test_HDR_IP1_fmulcud' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1138]
+INFO: [Synth 8-638] synthesizing module 'test_HDR_IP1_fmulcud' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fmulcud.vhd:29]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_ap_fmul_0_max_dsp_32' declared at 'd:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_fmul_0_max_dsp_32/synth/test_HDR_IP1_ap_fmul_0_max_dsp_32.vhd:59' bound to instance 'test_HDR_IP1_ap_fmul_0_max_dsp_32_u' of component 'test_HDR_IP1_ap_fmul_0_max_dsp_32' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fmulcud.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'test_HDR_IP1_ap_fmul_0_max_dsp_32' [d:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_fmul_0_max_dsp_32/synth/test_HDR_IP1_ap_fmul_0_max_dsp_32.vhd:70]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_3' declared at 'd:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_fadd_2_full_dsp_32/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_3' [d:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_fmul_0_max_dsp_32/synth/test_HDR_IP1_ap_fmul_0_max_dsp_32.vhd:193]
+INFO: [Synth 8-256] done synthesizing module 'test_HDR_IP1_ap_fmul_0_max_dsp_32' (28#1) [d:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_fmul_0_max_dsp_32/synth/test_HDR_IP1_ap_fmul_0_max_dsp_32.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'test_HDR_IP1_fmulcud' (29#1) [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fmulcud.vhd:29]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_fmulcud' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fmulcud.vhd:11' bound to instance 'test_HDR_IP1_fmulcud_U3' of component 'test_HDR_IP1_fmulcud' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1153]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_fmulcud' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fmulcud.vhd:11' bound to instance 'test_HDR_IP1_fmulcud_U4' of component 'test_HDR_IP1_fmulcud' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1168]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_fmulcud' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fmulcud.vhd:11' bound to instance 'test_HDR_IP1_fmulcud_U5' of component 'test_HDR_IP1_fmulcud' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1183]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_fmulcud' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fmulcud.vhd:11' bound to instance 'test_HDR_IP1_fmulcud_U6' of component 'test_HDR_IP1_fmulcud' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1198]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_fmulcud' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fmulcud.vhd:11' bound to instance 'test_HDR_IP1_fmulcud_U7' of component 'test_HDR_IP1_fmulcud' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1213]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_fdivdEe' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fdivdEe.vhd:11' bound to instance 'test_HDR_IP1_fdivdEe_U8' of component 'test_HDR_IP1_fdivdEe' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1228]
+INFO: [Synth 8-638] synthesizing module 'test_HDR_IP1_fdivdEe' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fdivdEe.vhd:29]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_ap_fdiv_6_no_dsp_32' declared at 'd:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_fdiv_6_no_dsp_32/synth/test_HDR_IP1_ap_fdiv_6_no_dsp_32.vhd:59' bound to instance 'test_HDR_IP1_ap_fdiv_6_no_dsp_32_u' of component 'test_HDR_IP1_ap_fdiv_6_no_dsp_32' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fdivdEe.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'test_HDR_IP1_ap_fdiv_6_no_dsp_32' [d:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_fdiv_6_no_dsp_32/synth/test_HDR_IP1_ap_fdiv_6_no_dsp_32.vhd:72]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_3' declared at 'd:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_fadd_2_full_dsp_32/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_3' [d:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_fdiv_6_no_dsp_32/synth/test_HDR_IP1_ap_fdiv_6_no_dsp_32.vhd:197]
+INFO: [Synth 8-256] done synthesizing module 'test_HDR_IP1_ap_fdiv_6_no_dsp_32' (36#1) [d:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_fdiv_6_no_dsp_32/synth/test_HDR_IP1_ap_fdiv_6_no_dsp_32.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'test_HDR_IP1_fdivdEe' (37#1) [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fdivdEe.vhd:29]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_fdivdEe' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fdivdEe.vhd:11' bound to instance 'test_HDR_IP1_fdivdEe_U9' of component 'test_HDR_IP1_fdivdEe' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1243]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_fdivdEe' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fdivdEe.vhd:11' bound to instance 'test_HDR_IP1_fdivdEe_U10' of component 'test_HDR_IP1_fdivdEe' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1258]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_fdivdEe' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fdivdEe.vhd:11' bound to instance 'test_HDR_IP1_fdivdEe_U11' of component 'test_HDR_IP1_fdivdEe' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1273]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_fdivdEe' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fdivdEe.vhd:11' bound to instance 'test_HDR_IP1_fdivdEe_U12' of component 'test_HDR_IP1_fdivdEe' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1288]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_uitoeOg' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_uitoeOg.vhd:11' bound to instance 'test_HDR_IP1_uitoeOg_U13' of component 'test_HDR_IP1_uitoeOg' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1303]
+INFO: [Synth 8-638] synthesizing module 'test_HDR_IP1_uitoeOg' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_uitoeOg.vhd:27]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_ap_uitofp_1_no_dsp_32' declared at 'd:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_uitofp_1_no_dsp_32/synth/test_HDR_IP1_ap_uitofp_1_no_dsp_32.vhd:59' bound to instance 'test_HDR_IP1_ap_uitofp_1_no_dsp_32_u' of component 'test_HDR_IP1_ap_uitofp_1_no_dsp_32' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_uitoeOg.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'test_HDR_IP1_ap_uitofp_1_no_dsp_32' [d:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_uitofp_1_no_dsp_32/synth/test_HDR_IP1_ap_uitofp_1_no_dsp_32.vhd:70]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_3' declared at 'd:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_fadd_2_full_dsp_32/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_3' [d:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_uitofp_1_no_dsp_32/synth/test_HDR_IP1_ap_uitofp_1_no_dsp_32.vhd:193]
+INFO: [Synth 8-256] done synthesizing module 'test_HDR_IP1_ap_uitofp_1_no_dsp_32' (44#1) [d:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_uitofp_1_no_dsp_32/synth/test_HDR_IP1_ap_uitofp_1_no_dsp_32.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'test_HDR_IP1_uitoeOg' (45#1) [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_uitoeOg.vhd:27]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_sitofYi' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_sitofYi.vhd:11' bound to instance 'test_HDR_IP1_sitofYi_U14' of component 'test_HDR_IP1_sitofYi' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1316]
+INFO: [Synth 8-638] synthesizing module 'test_HDR_IP1_sitofYi' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_sitofYi.vhd:27]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_ap_sitofp_1_no_dsp_32' declared at 'd:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_sitofp_1_no_dsp_32/synth/test_HDR_IP1_ap_sitofp_1_no_dsp_32.vhd:59' bound to instance 'test_HDR_IP1_ap_sitofp_1_no_dsp_32_u' of component 'test_HDR_IP1_ap_sitofp_1_no_dsp_32' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_sitofYi.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'test_HDR_IP1_ap_sitofp_1_no_dsp_32' [d:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_sitofp_1_no_dsp_32/synth/test_HDR_IP1_ap_sitofp_1_no_dsp_32.vhd:70]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_3' declared at 'd:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_fadd_2_full_dsp_32/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_3' [d:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_sitofp_1_no_dsp_32/synth/test_HDR_IP1_ap_sitofp_1_no_dsp_32.vhd:193]
+INFO: [Synth 8-256] done synthesizing module 'test_HDR_IP1_ap_sitofp_1_no_dsp_32' (46#1) [d:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.srcs/sources_1/ip/test_HDR_IP1_ap_sitofp_1_no_dsp_32/synth/test_HDR_IP1_ap_sitofp_1_no_dsp_32.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'test_HDR_IP1_sitofYi' (47#1) [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_sitofYi.vhd:27]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_sitofYi' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_sitofYi.vhd:11' bound to instance 'test_HDR_IP1_sitofYi_U15' of component 'test_HDR_IP1_sitofYi' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1329]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_sitofYi' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_sitofYi.vhd:11' bound to instance 'test_HDR_IP1_sitofYi_U16' of component 'test_HDR_IP1_sitofYi' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1342]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_mac_g8j' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_mac_g8j.vhd:45' bound to instance 'test_HDR_IP1_mac_g8j_U17' of component 'test_HDR_IP1_mac_g8j' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:1355]
+INFO: [Synth 8-638] synthesizing module 'test_HDR_IP1_mac_g8j' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_mac_g8j.vhd:60]
+INFO: [Synth 8-3491] module 'test_HDR_IP1_mac_g8j_DSP48_0' declared at 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_mac_g8j.vhd:12' bound to instance 'test_HDR_IP1_mac_g8j_DSP48_0_U' of component 'test_HDR_IP1_mac_g8j_DSP48_0' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_mac_g8j.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'test_HDR_IP1_mac_g8j_DSP48_0' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_mac_g8j.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'test_HDR_IP1_mac_g8j_DSP48_0' (48#1) [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_mac_g8j.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'test_HDR_IP1_mac_g8j' (49#1) [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_mac_g8j.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'test_HDR_IP1' (50#1) [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.vhd:58]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized697 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized697 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized697 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized697 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized697 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized695 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized695 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized695 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized695 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized695 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized693 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized693 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized693 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized693 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized693 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized691 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized691 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized691 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized691 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized691 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized689 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized689 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized689 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized689 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized689 has unconnected port SINIT
+WARNING: [Synth 8-3331] design norm_zero_det__parameterized0 has unconnected port DATA[6]
+WARNING: [Synth 8-3331] design norm_zero_det__parameterized0 has unconnected port DIST[7]
+WARNING: [Synth 8-3331] design norm_zero_det__parameterized0 has unconnected port DIST[6]
+WARNING: [Synth 8-3331] design norm_zero_det__parameterized0 has unconnected port DIST[5]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized667 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized667 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized667 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized667 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized667 has unconnected port SINIT
+WARNING: [Synth 8-3331] design carry_chain__parameterized22 has unconnected port B[31]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized753 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized753 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized753 has unconnected port SINIT
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized1 has unconnected port DEC_OP_STATE[11]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized1 has unconnected port DEC_OP_STATE[10]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized1 has unconnected port DEC_OP_STATE[9]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized1 has unconnected port DEC_OP_STATE[8]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized1 has unconnected port DIVIDE_BY_ZERO_IN
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized747 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized747 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized747 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized747 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized747 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized751 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized751 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized751 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized751 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized751 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized749 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized749 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized749 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized749 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized749 has unconnected port SINIT
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[30]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[29]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[28]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[27]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[26]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[25]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[24]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[23]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[22]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[21]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[20]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[19]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[18]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[17]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[16]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[15]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[14]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[13]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[12]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[11]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[10]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[9]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[8]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[7]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[6]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[5]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[4]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[3]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[2]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[1]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[0]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized745 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized745 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized745 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized745 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized745 has unconnected port SINIT
+WARNING: [Synth 8-3331] design carry_chain__parameterized26 has unconnected port B[11]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized743 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized743 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized743 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized743 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized743 has unconnected port SINIT
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 457.512 ; gain = 247.180
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 457.512 ; gain = 247.180
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 7700 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.xdc]
+Finished Parsing XDC File [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.xdc]
+Parsing XDC File [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 22 instances were transformed.
+  FDE => FDRE: 22 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.317 . Memory (MB): peak = 811.520 ; gain = 2.965
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 811.520 ; gain = 601.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 811.520 ; gain = 601.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for test_HDR_IP1_faddbkb_U0/test_HDR_IP1_ap_fadd_2_full_dsp_32_u. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for test_HDR_IP1_faddbkb_U1/test_HDR_IP1_ap_fadd_2_full_dsp_32_u. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for test_HDR_IP1_fdivdEe_U10/test_HDR_IP1_ap_fdiv_6_no_dsp_32_u. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for test_HDR_IP1_fdivdEe_U11/test_HDR_IP1_ap_fdiv_6_no_dsp_32_u. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for test_HDR_IP1_fdivdEe_U12/test_HDR_IP1_ap_fdiv_6_no_dsp_32_u. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for test_HDR_IP1_fdivdEe_U8/test_HDR_IP1_ap_fdiv_6_no_dsp_32_u. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for test_HDR_IP1_fdivdEe_U9/test_HDR_IP1_ap_fdiv_6_no_dsp_32_u. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for test_HDR_IP1_fmulcud_U2/test_HDR_IP1_ap_fmul_0_max_dsp_32_u. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for test_HDR_IP1_fmulcud_U3/test_HDR_IP1_ap_fmul_0_max_dsp_32_u. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for test_HDR_IP1_fmulcud_U4/test_HDR_IP1_ap_fmul_0_max_dsp_32_u. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for test_HDR_IP1_fmulcud_U5/test_HDR_IP1_ap_fmul_0_max_dsp_32_u. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for test_HDR_IP1_fmulcud_U6/test_HDR_IP1_ap_fmul_0_max_dsp_32_u. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for test_HDR_IP1_fmulcud_U7/test_HDR_IP1_ap_fmul_0_max_dsp_32_u. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for test_HDR_IP1_sitofYi_U14/test_HDR_IP1_ap_sitofp_1_no_dsp_32_u. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for test_HDR_IP1_sitofYi_U15/test_HDR_IP1_ap_sitofp_1_no_dsp_32_u. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for test_HDR_IP1_sitofYi_U16/test_HDR_IP1_ap_sitofp_1_no_dsp_32_u. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for test_HDR_IP1_uitoeOg_U13/test_HDR_IP1_ap_uitofp_1_no_dsp_32_u. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 811.520 ; gain = 601.188
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "AWREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "WREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "BVALID" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ARREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RVALID_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "det_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state_int_up" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "chunk_is_zero_ip" won't be mapped to RAM because address size (36) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "chunk_is_zero_ip" won't be mapped to RAM because address size (36) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state_det" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_det" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_int_up" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5544] ROM "image_in_V_data_V_0_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "image_in_V_dest_V_0_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "image_in_V_id_V_0_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "image_in_V_keep_V_0_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "image_in_V_last_V_0_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "image_in_V_strb_V_0_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "image_in_V_user_V_0_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "image_out_V_data_V_1_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "image_out_V_dest_V_1_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "image_out_V_id_V_1_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "image_out_V_keep_V_1_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "image_out_V_last_V_1_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "image_out_V_strb_V_1_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "image_out_V_user_V_1_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:42 ; elapsed = 00:00:50 . Memory (MB): peak = 811.520 ; gain = 601.188
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'test_HDR_IP1_faddbkb_U1/din1_buf1_reg[31:0]' into 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[31:0]' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_faddbkb.vhd:74]
+INFO: [Synth 8-4471] merging register 'test_HDR_IP1_fmulcud_U6/din0_buf1_reg[31:0]' into 'test_HDR_IP1_fmulcud_U4/din0_buf1_reg[31:0]' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fmulcud.vhd:64]
+INFO: [Synth 8-4471] merging register 'test_HDR_IP1_fmulcud_U7/din0_buf1_reg[31:0]' into 'test_HDR_IP1_fmulcud_U4/din0_buf1_reg[31:0]' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fmulcud.vhd:64]
+INFO: [Synth 8-4471] merging register 'test_HDR_IP1_fdivdEe_U11/din1_buf1_reg[31:0]' into 'test_HDR_IP1_fdivdEe_U10/din1_buf1_reg[31:0]' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fdivdEe.vhd:74]
+INFO: [Synth 8-4471] merging register 'test_HDR_IP1_fdivdEe_U12/din1_buf1_reg[31:0]' into 'test_HDR_IP1_fdivdEe_U10/din1_buf1_reg[31:0]' [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1_fdivdEe.vhd:74]
+INFO: [Synth 8-3886] merging instance 'res_V_1_reg_971_reg[23]' (FDE) to 'exp_V_reg_976_reg[0]'
+INFO: [Synth 8-3886] merging instance 'res_V_1_reg_971_reg[25]' (FDE) to 'exp_V_reg_976_reg[2]'
+INFO: [Synth 8-3886] merging instance 'res_V_1_reg_971_reg[24]' (FDE) to 'exp_V_reg_976_reg[1]'
+INFO: [Synth 8-3886] merging instance 'res_V_1_reg_971_reg[26]' (FDE) to 'exp_V_reg_976_reg[3]'
+INFO: [Synth 8-3886] merging instance 'res_V_1_reg_971_reg[27]' (FDE) to 'exp_V_reg_976_reg[4]'
+INFO: [Synth 8-3886] merging instance 'res_V_1_reg_971_reg[28]' (FDE) to 'exp_V_reg_976_reg[5]'
+INFO: [Synth 8-3886] merging instance 'res_V_1_reg_971_reg[29]' (FDE) to 'exp_V_reg_976_reg[6]'
+INFO: [Synth 8-3886] merging instance 'res_V_1_reg_971_reg[30]' (FDE) to 'exp_V_reg_976_reg[7]'
+INFO: [Synth 8-3886] merging instance 'tmp_8_reg_956_reg[15]' (FDE) to 'tmp_8_reg_956_reg[16]'
+INFO: [Synth 8-3886] merging instance 'tmp_8_reg_956_reg[16]' (FDE) to 'tmp_8_reg_956_reg[17]'
+INFO: [Synth 8-3886] merging instance 'tmp_8_reg_956_reg[17]' (FDE) to 'tmp_8_reg_956_reg[18]'
+INFO: [Synth 8-3886] merging instance 'tmp_8_reg_956_reg[18]' (FDE) to 'tmp_8_reg_956_reg[19]'
+INFO: [Synth 8-3886] merging instance 'tmp_8_reg_956_reg[19]' (FDE) to 'tmp_8_reg_956_reg[20]'
+INFO: [Synth 8-3886] merging instance 'tmp_8_reg_956_reg[20]' (FDE) to 'tmp_8_reg_956_reg[21]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[0]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[1]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[2]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[3]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[4]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[5]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[6]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[7]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[8]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[9]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[10]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[11]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[12]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[13]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[14]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[15]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[16]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[17]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[18]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[19]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[20]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[21]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[22]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[23]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[16]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[24]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[16]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[25]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[16]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[26]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[16]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[27]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[16]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[28]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[16]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[29]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[16]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[30]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_faddbkb_U0/din1_buf1_reg[31]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[0]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[1]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[1]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[2]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[3]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[4]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[4]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[5]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[6]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[6]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[7]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[7]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[8]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[8]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[9]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[9]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[10]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[10]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[11]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[11]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[12]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[12]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[13]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[13]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[14]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[14]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[15]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[15]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[23]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[16]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[17]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[17]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[18]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[18]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[19]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[19]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[20]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[20]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[21]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[21]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[22]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[22]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[24]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[23]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[26]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[24]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[25]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[25]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[30]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[26]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[27]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[27]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[28]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[28]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[29]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[29]' (FDE) to 'test_HDR_IP1_fmulcud_U5/din1_buf1_reg[31]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\test_HDR_IP1_fmulcud_U5/din1_buf1_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test_HDR_IP1_fmulcud_U5/din1_buf1_reg[31] )
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[9]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[10]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[10]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[11]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[11]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[12]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[12]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[13]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[13]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[14]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[14]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[15]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[16]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[16]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[17]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[17]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[18]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[18]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[19]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[19]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[20]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[20]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[21]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[21]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[22]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[22]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[23]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[23]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[24]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[24]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[25]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[25]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[26]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[26]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[27]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[27]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[28]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[28]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[29]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[29]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[30]'
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[30]' (FDE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[31] )
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rstate_reg[1]' (FDSE) to 'test_HDR_IP1_CNTRL_BUS_s_axi_U/rstate_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test_HDR_IP1_CNTRL_BUS_s_axi_U/wstate_reg[2] )
+INFO: [Synth 8-3886] merging instance 'test_HDR_IP1_uitoeOg_U13/din0_buf1_reg[15]' (FDE) to 'test_HDR_IP1_uitoeOg_U13/din0_buf1_reg[16]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (test_HDR_IP1_CNTRL_BUS_s_axi_U/wstate_reg[2]) is unused and will be removed from module test_HDR_IP1.
+WARNING: [Synth 8-3332] Sequential element (test_HDR_IP1_CNTRL_BUS_s_axi_U/rdata_data_reg[31]) is unused and will be removed from module test_HDR_IP1.
+WARNING: [Synth 8-3332] Sequential element (test_HDR_IP1_fmulcud_U5/din1_buf1_reg[30]) is unused and will be removed from module test_HDR_IP1.
+WARNING: [Synth 8-3332] Sequential element (test_HDR_IP1_fmulcud_U5/din1_buf1_reg[31]) is unused and will be removed from module test_HDR_IP1.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/NORM_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]) is unused and will be removed from module floating_point_v7_1_3_viv.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][3]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][2]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][1]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][3]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][2]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][1]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][0]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[4].pipe_reg[4][3]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[4].pipe_reg[4][2]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[4].pipe_reg[4][1]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[4].pipe_reg[4][0]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[5].pipe_reg[5][3]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[5].pipe_reg[5][2]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[5].pipe_reg[5][1]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[5].pipe_reg[5][0]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized3.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:58 ; elapsed = 00:01:08 . Memory (MB): peak = 811.520 ; gain = 601.188
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:12 ; elapsed = 00:01:21 . Memory (MB): peak = 811.520 ; gain = 601.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:16 ; elapsed = 00:01:25 . Memory (MB): peak = 837.695 ; gain = 627.363
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:23 ; elapsed = 00:01:32 . Memory (MB): peak = 851.684 ; gain = 641.352
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:24 ; elapsed = 00:01:34 . Memory (MB): peak = 851.684 ; gain = 641.352
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:24 ; elapsed = 00:01:34 . Memory (MB): peak = 851.684 ; gain = 641.352
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:26 ; elapsed = 00:01:36 . Memory (MB): peak = 851.684 ; gain = 641.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:27 ; elapsed = 00:01:36 . Memory (MB): peak = 851.684 ; gain = 641.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:27 ; elapsed = 00:01:36 . Memory (MB): peak = 851.684 ; gain = 641.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:27 ; elapsed = 00:01:37 . Memory (MB): peak = 851.684 ; gain = 641.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |CARRY4    |    52|
+|2     |DSP48E1   |     2|
+|3     |DSP48E1_1 |     2|
+|4     |DSP48E1_2 |     6|
+|5     |DSP48E1_3 |     6|
+|6     |DSP48E1_4 |     6|
+|7     |DSP48E1_5 |     1|
+|8     |LUT1      |   113|
+|9     |LUT2      |   939|
+|10    |LUT3      |  3471|
+|11    |LUT4      |   389|
+|12    |LUT5      |   610|
+|13    |LUT6      |   900|
+|14    |MUXCY     |  3902|
+|15    |MUXF7     |    46|
+|16    |SRL16E    |   193|
+|17    |SRLC32E   |    77|
+|18    |XORCY     |  3623|
+|19    |FDE       |    22|
+|20    |FDRE      |  3572|
+|21    |FDSE      |    35|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:27 ; elapsed = 00:01:37 . Memory (MB): peak = 851.684 ; gain = 641.352
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 420 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:55 ; elapsed = 00:01:16 . Memory (MB): peak = 851.684 ; gain = 238.336
+Synthesis Optimization Complete : Time (s): cpu = 00:01:27 ; elapsed = 00:01:37 . Memory (MB): peak = 851.684 ; gain = 641.352
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 7622 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1146 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 1114 instances
+  FDE => FDRE: 22 instances
+  SRLC32E => SRL16E: 10 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+377 Infos, 104 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:34 ; elapsed = 00:01:39 . Memory (MB): peak = 857.172 ; gain = 625.711
+INFO: [Common 17-1381] The checkpoint 'D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/project.runs/synth_1/test_HDR_IP1.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 857.172 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 10 14:03:08 2018...
+[Fri Aug 10 14:03:13 2018] synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:00 ; elapsed = 00:01:55 . Memory (MB): peak = 307.125 ; gain = 0.000
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k325tffg900-2
+INFO: [Netlist 29-17] Analyzing 1189 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.xdc]
+INFO: [Vivado 12-4761] HD.CLK_SRC property is set on port ap_clk. The net connecting to the port drives either clock PIN or hierarchical black box. Use the create_clock constraint to create a clock on this port prior to setting HD.CLK_SRC.  [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.xdc:2]
+Finished Parsing XDC File [D:/work/vivado_2016.4/HLS_workspace/HLS_HDR_alg/IP_for_genesys2/HDR_IP/test_HDR_IP1/solution1/impl/vhdl/test_HDR_IP1.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 627.398 ; gain = 320.273
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.085 . Memory (MB): peak = 627.398 ; gain = 0.000
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+report_timing: Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 1193.777 ; gain = 566.379
+
+
+Implementation tool: Xilinx Vivado v.2016.4
+Project:             test_HDR_IP1
+Solution:            solution1
+Device target:       xc7k325tffg900-2
+Report date:         Fri Aug 10 14:03:36 +0900 2018
+
+#=== Post-Synthesis Resource usage ===
+SLICE:            0
+LUT:           6444
+FF:            3629
+DSP:             23
+BRAM:             0
+SRL:            270
+#=== Final timing ===
+CP required:    10.000
+CP achieved post-synthesis:    7.352
+Timing met
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 10 14:03:36 2018...
